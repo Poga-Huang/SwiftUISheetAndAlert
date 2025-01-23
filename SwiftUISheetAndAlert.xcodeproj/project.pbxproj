@@ -11,6 +11,8 @@
 		654E10432D421D69005E81E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E10422D421D69005E81E7 /* ContentView.swift */; };
 		654E10452D421D6B005E81E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654E10442D421D6B005E81E7 /* Assets.xcassets */; };
 		654E10482D421D6B005E81E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654E10472D421D6B005E81E7 /* Preview Assets.xcassets */; };
+		654E10502D421EEF005E81E7 /* SportsNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E104E2D421EEE005E81E7 /* SportsNews.swift */; };
+		654E10512D421EEF005E81E7 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E104F2D421EEE005E81E7 /* NewsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		654E10422D421D69005E81E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		654E10442D421D6B005E81E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		654E10472D421D6B005E81E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		654E104E2D421EEE005E81E7 /* SportsNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsNews.swift; sourceTree = "<group>"; };
+		654E104F2D421EEE005E81E7 /* NewsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				654E10402D421D69005E81E7 /* SwiftUISheetAndAlertApp.swift */,
 				654E10422D421D69005E81E7 /* ContentView.swift */,
+				654E104F2D421EEE005E81E7 /* NewsView.swift */,
+				654E104E2D421EEE005E81E7 /* SportsNews.swift */,
 				654E10442D421D6B005E81E7 /* Assets.xcassets */,
 				654E10462D421D6B005E81E7 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				654E10432D421D69005E81E7 /* ContentView.swift in Sources */,
+				654E10512D421EEF005E81E7 /* NewsView.swift in Sources */,
+				654E10502D421EEF005E81E7 /* SportsNews.swift in Sources */,
 				654E10412D421D69005E81E7 /* SwiftUISheetAndAlertApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
